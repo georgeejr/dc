@@ -1,9 +1,13 @@
 .moneyback{
   padding: 25px 0;
   background: #fff;
+  .row.column{
+    .column{
+      padding: 0;
+    }
+  }
   .mbg{
-    width: 80px;
-    float: left;
+    width: 80px; 
   }
   h5{
     font-size: 16px;
@@ -13,6 +17,7 @@
   p{
     font-size: 16px;
     font-weight: 300;
+    margin-bottom: 0;
     a{
       color:#1197eb;
     }

@@ -30,8 +30,7 @@
     margin-left: 12.5px;
     margin-bottom: 25px;
     padding: 55px 0;
-    height: 226px;
-    width: 100%;
+    height: 226px; 
     p{
       font-size: 16px;
       font-weight: 900;
@@ -39,7 +38,7 @@
       margin-bottom: 0;
       margin-top: 18px;
     }
-    
+
     &:hover {
       box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.10);
       transition: shadow 0.5s ease;
