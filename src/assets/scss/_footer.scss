@@ -1,0 +1,17 @@
+footer{
+    padding: 20px 0;
+    text-align: center;
+    @media screen and #{breakpoint(large)} {
+      text-align: left;  
+    }
+    p{
+        font-size: 12px;
+        font-weight: 300;
+        color:#93939b;
+        margin-bottom: 0;
+        padding:0 24px;
+        a{
+            color:$link-color;
+        }
+    }
+}

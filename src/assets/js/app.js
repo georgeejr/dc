@@ -1,4 +1,4 @@
 $(function(){
   $(document).foundation();
-  dc.addRow.init();
+  dc.getData.init();
 });
