@@ -1,0 +1,48 @@
+.steps-sec {
+  padding-top:20px;
+  padding-bottom:25px;
+  background-color: #fff;
+  text-align: center;
+  h1{
+    font-family: $Lato;
+    font-size: 36px;
+    line-height: 1;
+    margin-bottom: 0;
+    font-weight: 900;
+    color: $main-text-color;
+  }
+  h4{
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+}
+.prod-selection {
+   padding: 35px 0;
+  .column {
+    background: #fff;
+    border:1px solid #CACACA;
+    max-width: 226px;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
+    margin-bottom: 25px;
+    padding: 55px 0;
+    height: 226px;
+    width: 100%;
+    p{
+      font-size: 16px;
+      font-weight: 900;
+      color:$main-text-color;
+      margin-bottom: 0;
+      margin-top: 18px;
+    }
+    
+    &:hover {
+      box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.10);
+      transition: shadow 0.5s ease;
+    }
+  }
+}
