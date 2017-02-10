@@ -1,8 +1,6 @@
-
-
-  /*
+/*
 Author: georgee
-Description: axios http client for getting data
+Description: http request for getting data
 Dependencies: jQuery
 */
 

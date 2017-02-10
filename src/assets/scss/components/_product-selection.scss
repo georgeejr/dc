@@ -8,6 +8,7 @@
       padding-top:30px;
       background-repeat: no-repeat;
       background-position: top center;
+      max-width:292px;
       &.one{
         background-image: url('/assets/img/step1.jpg');
       }
@@ -25,6 +26,7 @@
       font-size: 14px;
       font-weight: 400;
       color: $main-text-color;
+      margin-top: 8px;
     }
   }
   h1{
@@ -34,6 +36,7 @@
     margin-bottom: 0;
     font-weight: 900;
     color: $main-text-color;
+    margin-top: 19px;
   }
   h4{
     font-size: 24px;
@@ -45,7 +48,7 @@
   }
 }
 .prod-selection {
-   padding: 35px 0;
+   padding: 46px 0 0 0;
   .column {
     background: #fff;
     border:1px solid #CACACA;
@@ -57,17 +60,33 @@
     height: 226px;
     border-radius: 3px;
     cursor: pointer;
+    position: relative;
     p{
       font-size: 16px;
       font-weight: 900;
       color:$main-text-color;
-      margin-bottom: 0;
-      margin-top: 18px;
+      position: absolute;
+      bottom:36px;
+      left:0;
+      right:0;
+      // margin-bottom: 0;
+      // margin-top: 18px;
     }
 
     &:hover {
       box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.10);
       transition: shadow 0.5s ease;
     }
+    &.something-else{
+      &.active{
+        background-color: #eee;
+      }
+    }
   }
+}
+.something-else-wrap{
+  max-width:978px;
+  border:1px solid #CACACA;
+  background: #fff;
+  margin-bottom::46px;
 }
