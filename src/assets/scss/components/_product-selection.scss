@@ -3,6 +3,30 @@
   padding-bottom:25px;
   background-color: #fff;
   text-align: center;
+  .step-no{
+    .column{
+      padding-top:30px;
+      background-repeat: no-repeat;
+      background-position: top center;
+      &.one{
+        background-image: url('/assets/img/step1.jpg');
+      }
+      &.two{
+        background-image: url('/assets/img/step2.jpg');
+      }
+      &.three{
+        background-image: url('/assets/img/step3.jpg');
+      }
+      &.four{
+        background-image: url('/assets/img/step4.jpg');
+      }
+    }
+    p{
+      font-size: 14px;
+      font-weight: 400;
+      color: $main-text-color;
+    }
+  }
   h1{
     font-family: $Lato;
     font-size: 36px;
@@ -30,7 +54,7 @@
     margin-left: 12.5px;
     margin-bottom: 25px;
     padding: 55px 0;
-    height: 226px; 
+    height: 226px;
     border-radius: 3px;
     cursor: pointer;
     p{
