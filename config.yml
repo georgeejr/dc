@@ -60,5 +60,7 @@ PATHS:
     # Paths to your own project code are here
 
     # - "node_modules/handlebars/dist/handlebars.js"
+    - "src/assets/js/lib/jquery.json2html-master/json2html.js"
+    - "src/assets/js/lib/jquery.json2html-master/jquery.json2html.js"
     - "src/assets/js/!(app).js"
     - "src/assets/js/app.js"

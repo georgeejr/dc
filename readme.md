@@ -2,6 +2,8 @@
 
 Tools:
 
+- json2html for JSON templates
+- Babel compiling es6 code  
 - Handlebars HTML templates with Panini
 - Sass compilation and prefixing
 - JavaScript concatenation
@@ -22,7 +24,7 @@ git clone https://github.com/georgeejr/dc.git
 Then open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd projectname(dc)
 npm install
 bower install
 ```
@@ -34,3 +36,9 @@ http://localhost:8000
 ```
 
 To create compressed and minified, production-ready assets, run `npm run build`.
+
+### Structure 
+
+```
+- RestAPI setup for displaying data using json2html templating
+```
