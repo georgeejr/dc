@@ -44,5 +44,5 @@
   "babel": {
     "presets": ["es2015"]
   },
-  "private": true
+  "private": true 
 }

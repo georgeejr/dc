@@ -231,7 +231,7 @@ These buttons are primary calls to action and should be used sparingly. Their si
 
 ## Secondary Buttons
 
-These buttons are used for less important, secondary actions on a page.
+These buttons are used for less important, secondary actions on a page
 
 ```html_example
 <a href="#" class="secondary large button">Large button</a>

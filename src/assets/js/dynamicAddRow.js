@@ -3,7 +3,6 @@ Author: georgee
 Description:
 Dependencies: Jquery
 */
-
 var dc = dc || {};
 
 (function($){

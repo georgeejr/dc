@@ -40,5 +40,5 @@ To create compressed and minified, production-ready assets, run `npm run build`.
 ### Structure 
 
 ```
-- RestAPI setup for displaying data using json2html templating
+- RestAPI setup for displaying data using ajax and json2html templating
 ```

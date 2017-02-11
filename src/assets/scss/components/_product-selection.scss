@@ -10,16 +10,16 @@
       background-position: top center;
       max-width:292px;
       &.one{
-        background-image: url('/assets/img/step1.jpg');
+        background-image: url('../../assets/img/step1.jpg');
       }
       &.two{
-        background-image: url('/assets/img/step2.jpg');
+        background-image: url('../../assets/img/step2.jpg');
       }
       &.three{
-        background-image: url('/assets/img/step3.jpg');
+        background-image: url('../../assets/img/step3.jpg');
       }
       &.four{
-        background-image: url('/assets/img/step4.jpg');
+        background-image: url('../../assets/img/step4.jpg');
       }
     }
     p{
